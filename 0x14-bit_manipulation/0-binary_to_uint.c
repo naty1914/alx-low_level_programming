@@ -2,9 +2,12 @@
 
 /**
  * binary_to_uint - Changes a binary number into an unsigned int
- *@b: Pointer to a string with the characters 0 and 1
- *Return: unsigned int or  0
+ * @b: Pointer to a string with the characters 0 and 1
+ * Return: The changed number or 0
+ *
  */
+
+
 unsigned int binary_to_uint(const char *b)
 {
 int j = 0;
