@@ -10,7 +10,7 @@ ptr->prev = NULL;
 ptr->next =*head;
 
 *head= ptr;
-return *head;
+return ptr;
 
 
 }
