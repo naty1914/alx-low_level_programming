@@ -26,7 +26,7 @@ ptr->prev = NULL;
     }
 
 *head= ptr;
-return *head;
+return ptr;
 
 
 }
