@@ -11,7 +11,7 @@ ptr =malloc(sizeof( struct dlistint_s));
 ptr->n = n;
 
 ptr->prev = NULL;
-ptr->next =*head;
+
 
  if (*head == NULL)
     {
