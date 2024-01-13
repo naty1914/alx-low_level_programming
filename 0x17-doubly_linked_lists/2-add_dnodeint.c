@@ -6,8 +6,8 @@
 
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
- dlistint_s *ptr;
-ptr =malloc(sizeof( dlistint_s));
+ dlistint_t *ptr;
+ptr =malloc(sizeof( dlistint_t));
 if (ptr == NULL)
     {
   
