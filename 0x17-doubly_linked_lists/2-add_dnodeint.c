@@ -18,18 +18,15 @@ ptr->n = n;
 ptr->prev = NULL;
 
 
- if (*head == NULL)
+ if (*head != NULL)
     {
         
-        ptr->next = NULL;
-    }
-    else
-    {
+    
     
         ptr->next = *head;
         (*head)->prev = ptr;
     }
-
+   
 *head= ptr;
 return ptr;
 
