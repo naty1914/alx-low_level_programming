@@ -2,7 +2,7 @@
 
 
 /**
- * add_dnodeint - Adds a new node at the beginning  list
+ * add_dnodeint - Adds a new node at the beginning of  list
  * @head: Pointer to the head of the  list
  * @n: Data to be stored in the new node
  *
@@ -17,13 +17,14 @@ ptr = malloc(sizeof(dlistint_t));
 if (ptr == NULL)
 {
 
-NULL;
+return (NULL);
 }
-ptr->n n;
+ptr->n = n;
 ptr->prev = NULL;
 
 if (*head != NULL)
 {
+
 ptr->next = *head;
 (*head)->prev = ptr;
 }
